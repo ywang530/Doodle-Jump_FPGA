@@ -1,0 +1,42 @@
+	nios_system u0 (
+		.clk_clk                (<connected-to-clk_clk>),                //             clk.clk
+		.doodle_x_export        (<connected-to-doodle_x_export>),        //        doodle_x.export
+		.doodle_y_export        (<connected-to-doodle_y_export>),        //        doodle_y.export
+		.floor1_x_export        (<connected-to-floor1_x_export>),        //        floor1_x.export
+		.floor1_y_export        (<connected-to-floor1_y_export>),        //        floor1_y.export
+		.floor2_x_export        (<connected-to-floor2_x_export>),        //        floor2_x.export
+		.floor2_y_export        (<connected-to-floor2_y_export>),        //        floor2_y.export
+		.floor3_x_export        (<connected-to-floor3_x_export>),        //        floor3_x.export
+		.floor3_y_export        (<connected-to-floor3_y_export>),        //        floor3_y.export
+		.floor4_x_export        (<connected-to-floor4_x_export>),        //        floor4_x.export
+		.floor4_y_export        (<connected-to-floor4_y_export>),        //        floor4_y.export
+		.floor5_x_export        (<connected-to-floor5_x_export>),        //        floor5_x.export
+		.floor5_y_export        (<connected-to-floor5_y_export>),        //        floor5_y.export
+		.floor6_x_export        (<connected-to-floor6_x_export>),        //        floor6_x.export
+		.floor6_y_export        (<connected-to-floor6_y_export>),        //        floor6_y.export
+		.floor7_x_export        (<connected-to-floor7_x_export>),        //        floor7_x.export
+		.floor7_y_export        (<connected-to-floor7_y_export>),        //        floor7_y.export
+		.floor8_x_export        (<connected-to-floor8_x_export>),        //        floor8_x.export
+		.floor8_y_export        (<connected-to-floor8_y_export>),        //        floor8_y.export
+		.keycode_export         (<connected-to-keycode_export>),         //         keycode.export
+		.otg_hpi_address_export (<connected-to-otg_hpi_address_export>), // otg_hpi_address.export
+		.otg_hpi_cs_export      (<connected-to-otg_hpi_cs_export>),      //      otg_hpi_cs.export
+		.otg_hpi_data_in_port   (<connected-to-otg_hpi_data_in_port>),   //    otg_hpi_data.in_port
+		.otg_hpi_data_out_port  (<connected-to-otg_hpi_data_out_port>),  //                .out_port
+		.otg_hpi_r_export       (<connected-to-otg_hpi_r_export>),       //       otg_hpi_r.export
+		.otg_hpi_reset_export   (<connected-to-otg_hpi_reset_export>),   //   otg_hpi_reset.export
+		.otg_hpi_w_export       (<connected-to-otg_hpi_w_export>),       //       otg_hpi_w.export
+		.reset_reset_n          (<connected-to-reset_reset_n>),          //           reset.reset_n
+		.sdram_clk_clk          (<connected-to-sdram_clk_clk>),          //       sdram_clk.clk
+		.sdram_wire_addr        (<connected-to-sdram_wire_addr>),        //      sdram_wire.addr
+		.sdram_wire_ba          (<connected-to-sdram_wire_ba>),          //                .ba
+		.sdram_wire_cas_n       (<connected-to-sdram_wire_cas_n>),       //                .cas_n
+		.sdram_wire_cke         (<connected-to-sdram_wire_cke>),         //                .cke
+		.sdram_wire_cs_n        (<connected-to-sdram_wire_cs_n>),        //                .cs_n
+		.sdram_wire_dq          (<connected-to-sdram_wire_dq>),          //                .dq
+		.sdram_wire_dqm         (<connected-to-sdram_wire_dqm>),         //                .dqm
+		.sdram_wire_ras_n       (<connected-to-sdram_wire_ras_n>),       //                .ras_n
+		.sdram_wire_we_n        (<connected-to-sdram_wire_we_n>),        //                .we_n
+		.score_export           (<connected-to-score_export>)            //           score.export
+	);
+
